@@ -1,11 +1,11 @@
 ---
 layout: post
-title:      "**Taking the Leap**"
-date:       2018-09-03 16:24:19 +0000
+title:      "**Taking the Leap** #"
+date:       2018-09-03 12:24:20 -0400
 permalink:  taking_the_leap
 ---
 
-# 
+
 Ever feel doubtful about the path you're on? Are you wanting more of a challenge or a role in which you can really utilize your true strengths? Something that will give you a sense of fulfilment everyday? That's exactly where I've found myself these last few years. The next question to ask yourself is what's holding you back from making that change? I know, I know, change can be scary! However, the decision to make that change is often the hardest part. You've probably heard some variation of this quote before, but I like how author Napoleon Hill has put it: "Strength and growth come only through continous effort and struggle." These things dont come easy, and if you're starting to feel complacent (like I was) then I'd argue it's time to make a change!
 
 Let's take a quick journey back through what's led to this point. Growing up we moved around a lot. I've always embraced change and looked to make the best of any situation. That being said, one thing I could always rely on was learning new things, especially anything that provided a creative outlet. Technology and art always resonated the most with me. From a young age I dabbled in just about anything I could get my hands on, whether that was playing guitar, taking calligraphy lessons, drawing, painting, and even programming through introductions to C++ and HTML/CSS. I loved (and still do) anything that allows me to think outside of the box and take creative approaches to solving problems. Fast forwarding a few years, I found myself losing track of that in college and instead started going with the flow. Ultimately I ended up hopping around a few different focuses, such as Architecture, Construction Management, Management Information Systems, general business, etc., before ultimately landing on Manadarin Chinese. I know, a bit of an odd path. 
