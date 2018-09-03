@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "**Taking the Leap** #"
+title:      "Taking the Leap"
 date:       2018-09-03 12:24:20 -0400
 permalink:  taking_the_leap
 ---
