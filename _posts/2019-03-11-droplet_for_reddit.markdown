@@ -146,7 +146,8 @@ Right now Droplet has some base functionality that allows a user to link a valid
 
 Overall I'm very happy with where I'm at on this project, especially for my first ever React/Redux project. There were a lot of firsts in this one, like using Devise (partially at least) and figuring out the whole OAuth flow between my frontend, backend, and third party API. I know now that Reddit was built using React, so I really am curious if I'm anywhere close in some regards to how they handle certain elements of their page. Anyways, thank you for reading! Hopefully there will be more to come on Droplet in the future and if you're curious please check out the Droplet Repos on GitHub.
 
-Droplet React/Redux Frontend Repo: [](https://github.com/btmccollum/droplet-web)
-Droplet Rails API Backend Repo: [](https://github.com/btmccollum/droplet-api)
+GitHub Repos:
+* [Droplet React/Redux Frontend Repo](https://github.com/btmccollum/droplet-web)
+* [Droplet Rails API Backend Repo](https://github.com/btmccollum/droplet-api)
 
 
