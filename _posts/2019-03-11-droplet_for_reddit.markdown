@@ -19,30 +19,33 @@ Upon visiting the site, a user is able to create a Droplet account, at which poi
 
 Once your account has been linked, you're directed to the home page, which contains a list of the 100 most popular subreddits (at the time the page is loaded) presented in the form of Bootstrap cards with the subreddit icon, name, description, and option to add it to your feed (or removed if it was added).
 
-<img align="center" src="https://i.imgur.com/YnWI3Ny.png" alt="subreddit cards" width="550" height="200" />
-<figcaption>"A sample of some of the initial cards."</figcaption>
+<p align="center">
+	<img src="https://i.imgur.com/YnWI3Ny.png" alt="subreddit cards" height="300" style="width:auto;max-width:100%" />
+</p>
 
 Anytime the user comes back to this page, they're going to get a new list of the top 100 subreddits at that moment, which keeps it fun and fresh. Once added, a card will instantly update and it'll be obvious (in a subtle way) that it was added. At the top of this page, there is a button to jump to your feed, or a user can use the animated pop out side bar menu to select 'posts.' 
 
-<img align="center" src="https://i.imgur.com/Bw4CPTK.png" alt="sidebar menu" width="250" height="200" />
-<figcaption>"The sidebar menu fully extended."</figcaption>
+<p align="center">
+	<img src="https://i.imgur.com/Bw4CPTK.png" alt="sidebar menu" height="500" style="width:auto;max-width:100%" />
+</p>
 
 Now to get to the meat of the application! Let's take a look at our posts. When a user is navigated to the '/posts' route, they'll be presented with a list of 100 posts from either their feed. If they have not created a custom feed yet, they'll get the first 100 posts from Reddit's daily best as a default option. Each time this page is visited, an axios get request is being sent to the Rails API to then request the last 100 posts from Reddit. This is happening from the posts container and being passed down through a few child components. The container itself is throwing a get request upon being mounted, at which point the results are passed down to a list component which then renders individual post components for each of the 100 posts that were fetched. 
 
-<img align="center" src="https://i.imgur.com/WjEznOc.png" alt="list of posts" width="250" height="200" />
-<figcaption>"A few of the posts on display."</figcaption>
+<p align="center">
+	<img src="https://i.imgur.com/WjEznOc.png" alt="list of posts" height="400" style="width:auto;max-width:100%" />
+</p>
 
 For each post a user will see: the title, a thumbnail preview image, the author, how many upvotes the post has, comment count, and how many times the post has been gilded. When a post is clicked, the post itself is loaded into a modal (think pop-up) and an action is fired off to the Rails API to fetch up to the first 100 parent comments from that post, which are loaded in asychronously. 
 
-<img align="center" src="https://i.imgur.com/WSIuCts.png" alt="example post and comments" width="250" height="200" />
-<figcaption>"Taking a look at the post modal and some of its comments."</figcaption>
-
+<p align="center">
+	<img src="https://i.imgur.com/WSIuCts.png" alt="example post and comments" height="575" style="width:auto;max-width:100%" />
+</p>
 
 Lastly, a user is able to check out their Droplet profile through the profile route. The profile itself allows a user to see their current Reddit avatar (pulled from their reddit account, stored on the user model, and then displayed back), email, Reddit username, and a list of all the subreddits that make up their personalized feed along with the option to remove them if desired. Additionally there is a functioning delete account button if a user chooses to do so. The profile itself will also show the status of a users account and whether or not they have successfully linked their reddit account, otherwise a user will be able to click the link to do so. 
 
-<img align="center" src="https://i.imgur.com/hqCajJP.png" alt="sample profile" width="250" height="200" />
-<figcaption>"A example of the user's profile."</figcaption>
-
+<p align="center">
+	<img align="center" src="https://i.imgur.com/hqCajJP.png" alt="sample profile" height="500" style="width:auto;max-width:100%" />
+</p>
 
 ## Challenges
 
