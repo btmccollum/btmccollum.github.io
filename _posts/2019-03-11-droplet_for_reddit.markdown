@@ -44,7 +44,7 @@ For each post a user will see: the title, a thumbnail preview image, the author,
 Lastly, a user is able to check out their Droplet profile through the profile route. The profile itself allows a user to see their current Reddit avatar (pulled from their reddit account, stored on the user model, and then displayed back), email, Reddit username, and a list of all the subreddits that make up their personalized feed along with the option to remove them if desired. Additionally there is a functioning delete account button if a user chooses to do so. The profile itself will also show the status of a users account and whether or not they have successfully linked their reddit account, otherwise a user will be able to click the link to do so. 
 
 <p align="center">
-	<img align="center" src="https://i.imgur.com/hqCajJP.png" alt="sample profile" height="500" style="height:500px;width:auto;max-width:100%" />
+	<img align="center" src="https://i.imgur.com/IQIOT3I.png" alt="sample profile" height="500" style="height:500px;width:auto;max-width:100%" />
 </p>
 
 ## Challenges
