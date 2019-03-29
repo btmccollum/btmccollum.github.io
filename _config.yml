@@ -7,7 +7,7 @@ copyright_name: Brad McCollum
 description: > # this means to ignore newlines until "baseurl:"
   A journey in pursuit of creativity, passion, proficiency, and code!
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: 
+twitter_username: btmccollum
 github_username:  btmccollum
 
 # Build settings
